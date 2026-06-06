@@ -1,0 +1,27 @@
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Julia generated files
+*.jl.cov
+*.jl.*.cov
+*.ji
+.julia/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+
+# Generated experiment and analysis outputs
+/data/**
+!/data/
+!/data/README.md
+/results/
+/outputs/
+/gifs/
+*.log
+*.tmp
+/analysis/*.pdf
+/analysis/*.png
